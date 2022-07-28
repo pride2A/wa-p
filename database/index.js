@@ -2,9 +2,9 @@ const knex = require('knex')({
     client: 'mysql',
     connection: {
       host : 'localhost',
-      user : 'root',
-      password : '',
-      database : 'web2'
+      user : 'id19294439_rootlogin',
+      password : '=jJZ]?n_TU/04Ad4',
+      database : 'id19294439_root'
     }
   });
 
