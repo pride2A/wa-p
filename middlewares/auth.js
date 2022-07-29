@@ -2,7 +2,7 @@ var Auth = {
     check_login: function (request, response, next)
     {
         if (!request.session.loggedin) {
-            return response.redirect('/login');
+            return response.redirect('/home');
         }
         next();
     },
